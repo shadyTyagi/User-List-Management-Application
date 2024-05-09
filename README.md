@@ -6,7 +6,7 @@ The User List Management Application is a web-based tool developed using React, 
 
 User List View: Upon opening the application, users are presented with a comprehensive list of users. Each user entry typically includes their name and profile picture, offering a quick overview of all registered users.
 Search Functionality: To enhance user experience, the application incorporates a search feature. Users can input keywords into the search bar to filter and locate specific users within the list based on their names.
-User Detail View: Clicking on a user's entry expands the view to reveal detailed information about the selected user. This detailed view includes essential user attributes such as age, gender, country, and a description.
+User Detail View: Clicking on a arrow icon user's entry expands the view to reveal detailed information about the selected user. This detailed view includes essential user attributes such as age, gender, country, and a description.
 Edit User Information: Users have the ability to modify user information directly within the application. By clicking on an "Edit" button within the detailed view, users can update user details such as name, age, gender, country, and description as needed.
 Delete User: The application allows users to delete user records from the system. Upon selecting the delete option, users are prompted with a confirmation dialog box to prevent accidental deletions, ensuring data integrity.
 
