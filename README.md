@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The User List Management Application is a web-based tool developed using React, a popular JavaScript library for building user interfaces. This application serves as a platform for managing user information efficiently. It provides functionalities such as viewing a list of users, searching for specific users, viewing detailed user information, editing user details, and deleting users from the system.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+User List View: Upon opening the application, users are presented with a comprehensive list of users. Each user entry typically includes their name and profile picture, offering a quick overview of all registered users.
+Search Functionality: To enhance user experience, the application incorporates a search feature. Users can input keywords into the search bar to filter and locate specific users within the list based on their names.
+User Detail View: Clicking on a user's entry expands the view to reveal detailed information about the selected user. This detailed view includes essential user attributes such as age, gender, country, and a description.
+Edit User Information: Users have the ability to modify user information directly within the application. By clicking on an "Edit" button within the detailed view, users can update user details such as name, age, gender, country, and description as needed.
+Delete User: The application allows users to delete user records from the system. Upon selecting the delete option, users are prompted with a confirmation dialog box to prevent accidental deletions, ensuring data integrity.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To set up the User List Management Application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the Repository: Begin by cloning the project repository to your local machine using the following command:
 
-### `npm test`
+git clone <https://github.com/shadyTyagi/User-List-Management-Application.git>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Navigate to Project Directory: Use the cd command to navigate into the project directory:
 
-### `npm run build`
+cd factwise-assessment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install Dependencies: Install project dependencies using npm (Node Package Manager) by running
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dependencies
 
-### `npm run eject`
+The User List Management Application relies on the following dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React: A JavaScript library used for building user interfaces.
+react-icons: A library providing a wide range of icons for use in React applications, enhancing visual elements within the user interface.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Rajat Tyagi]

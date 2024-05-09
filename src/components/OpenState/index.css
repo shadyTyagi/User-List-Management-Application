@@ -1,0 +1,84 @@
+.age-gender-country-card {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  padding: 10px;
+}
+
+.head {
+  color: #c6cfc4;
+  font-size: 15px;
+}
+
+.para {
+  color: #000000;
+}
+
+.button-card {
+  display: flex;
+  justify-content: end;
+}
+
+.button {
+  background: transparent;
+  border: none;
+}
+
+.edit-input {
+  height: 30px;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 15px;
+  border: 1px solid #cacdc6;
+}
+.gender-input {
+  height: 40px;
+}
+
+.country {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.age {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.gender {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 100px;
+}
+
+.text-area-card {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 20px;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #cacdc6;
+}
+
+.description-para {
+  font-family: "Roboto";
+}
+
+@media screen and (max-width: 765px) {
+  .edit-input {
+    height: 20px;
+    width: 50px;
+  }
+  .gender-input {
+    margin-right: 10px;
+  }
+}

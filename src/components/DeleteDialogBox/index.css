@@ -1,0 +1,45 @@
+.model-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(189, 189, 189, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.model-container {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 50%;
+  border: 1px solid grey;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.model-button-card {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.model-cancel-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+}
+
+.model-delete-btn {
+  background-color: rgb(214, 65, 7);
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+  color: #ffffff;
+}
